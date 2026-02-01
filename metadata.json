@@ -1,0 +1,41 @@
+{
+  "id": 11990,
+  "title": "AI-powered RAG configuration assistant: From form to email recommendations",
+  "slug": "ai-powered-rag-configuration-assistant-from-form-to-email-recommendations-11990",
+  "description": "DESCRIPTIONAn intelligent RAG Configuration Assistant that analyzes yourretrieval-augmented generation requirements and delivers AI-poweredrecommendations via email. Get expert guidance on embedding models, chunk sizes,vector stores, and cost estimates—all automated through a simple formsubmission.KEY FEATURES• AI-powered analysis using LLM• 14 predefined use cases (Document Q&A, Chatbot, Legal, Medical, etc.)• Optional document upload for enhanced analysis• Beautiful HTML email reports with modern dashboard design• Customized n8n workflow JSON attachment• Cost estimation based on budget and usage• Deterministic AI (temperature=0) for consistent results• Dual-branch architecture (file upload or manual input)HOW IT WORKS 1. Form Submission: User provides use case, document type, pages, budget, query volume 2. AI Analysis: Claude evaluates requirements and complexity 3. Recommendation Engine: Generates optimal configuration (embedding model, chunk size, vector store) 4. Report Generation: Creates professional HTML email with all recommendations 5. Workflow Creation: Builds customized n8n workflow JSON 6. Email Delivery: Sends report + workflow attachment via GmailHOW TO USE 1. Setup credentials: Add OpenRouter API key and Gmail OAuth 2. Activate workflow: Enable the Form Trigger 3. Share form URL: Distribute to your team or clients 4. Receive requests: Users fill out the form 5. Get results: Recipients receive email with recommendations + workflow file 6. Import workflow: Download attached JSON and import to n8nREQUIREMENTSEssential: * n8n instance (v1.0+) * OpenRouter account + API key * Gmail account with OAuth2 setup",
+  "metadescription": "AI-powered RAG Configuration Assistant: submit a form and get deterministic recommendations on embeddings, chunking, vector stores & costs via email + n8n JSON.",
+  "summary": "AI-powered RAG Configuration Assistant that turns a simple form into expert recommendations—delivered straight to your inbox.  \nCovers 14 preset use cases (Document Q&A, Chatbot, Legal, Medical, and more) with optional document upload for deeper analysis.  \nClaude-driven, deterministic evaluation (temperature 0) recommends embedding models, chunk sizes, vector stores, and realistic cost estimates.  \nGenerates a sleek HTML “dashboard-style” email plus a customized n8n workflow JSON attachment.  \nDual-branch flow supports either manual inputs or file-based requests, then sends everything via Gmail after OpenRouter + Gmail OAuth setup.",
+  "date": "20 Dec 2025",
+  "createdAtRaw": "2025-12-20T17:10:50.309+00:00",
+  "categories": [
+    "Engineering",
+    "AI RAG"
+  ],
+  "nodeTypes": [
+    "n8n-nodes-base.if",
+    "n8n-nodes-base.set",
+    "n8n-nodes-base.code",
+    "n8n-nodes-base.gmail",
+    "n8n-nodes-base.merge",
+    "n8n-nodes-base.stickyNote",
+    "n8n-nodes-base.formTrigger",
+    "@n8n/n8n-nodes-langchain.agent",
+    "@n8n/n8n-nodes-langchain.lmChatOpenRouter"
+  ],
+  "author": {
+    "name": "Sridevi Edupuganti",
+    "username": "edupuganti",
+    "avatar": "https://gravatar.com/avatar/cbe6a8969d43c7ef677a24799bf237865adfdfed736d030a4c0eb446e96ac0ba?r=pg&d=retro&size=200",
+    "verified": true
+  },
+  "popularity": 20,
+  "visitors": 70,
+  "inserters": 0,
+  "templateUrl": "https://n8n.io/workflows/11990",
+  "readme": "",
+  "thumbnail": "https://supabase.amastuces.com/storage/v1/object/public/worklowscreenshot/11990-ai-powered-rag-configuration-assistant--from-form-to-email-recommendations.webp",
+  "complexityLevel": "advanced",
+  "templateData": null,
+  "price": 49,
+  "referalUrl": "https://s.n8nworkflows.xyz/GzWQ6"
+}
